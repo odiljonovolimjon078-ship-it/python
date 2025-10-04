@@ -3,18 +3,17 @@
          continue
      print(x)
  
-import time
-for y in ("🔴🟡🟢"):
+    import time
+ for y in ("🔴🟡🟢"):
     time.sleep(1)
     print(y)
  
-unlilar = "aeiouAEIOU"
-gap = input("Gap kiriting")
+    unlilar = "aeiouAEIOU"
+    gap = input("Gap kiriting")
  
-soni = 0
-for harf in gap:
+    soni = 0
+ for harf in gap:
      if harf in unlilar:
          soni = soni + 1
- 
-print(f"Gapdagi unli harflar soni {soni}")
+ print(f"Gapdagi unli harflar soni {soni}")
  
